@@ -1,0 +1,48 @@
+body {
+  background: rgb(199,15,15);
+  background: linear-gradient(90deg, rgba(199,15,15,1) 0%, rgba(125,15,71,1) 66%);
+}
+
+.col-md-6 {
+  margin-top: 170px !important;
+  background: rgb(199,15,15);
+  background: linear-gradient(90deg, rgba(199,15,15,1) 0%, rgba(125,15,71,1) 66%);
+}
+
+input[type=button] {
+  width: 100%;
+}
+
+input[type=text] {
+  width: 100%;
+  background: rgb(199,15,15);
+  background: linear-gradient(90deg, rgba(199,15,15,1) 0%, rgba(125,15,71,1) 66%);
+  color: white;
+  font-weight: bolder;
+  border: 3px solid rgb(241,126, 126);
+}
+
+input[type=button] {
+  background: rgb(199,15,15);
+  background: linear-gradient(90deg, rgba(199,15,15,1) 0%, rgba(125,15,71,1) 66%);
+  color: white;
+  font-weight: bolder;
+  border: 3px solid rgb(241, 126, 126);
+}
+
+h1 {
+  font-weight: bolder !important;
+  margin-top: 15px !important;
+  color: white;
+}
+
+
+.container{
+  max-width: 350px;
+  margin: 10vh auto 0 auto;
+}
+input[type=button]:hover {
+  background: rgb(50,232,169);
+  background: linear-gradient(90deg, rgba(50,232,169,1) 0%, rgba(12,111,162,1) 100%);
+  transition: 0.1s ease-in-out;
+}
